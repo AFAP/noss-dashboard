@@ -3,7 +3,7 @@ import qs from 'qs'
 import merge from 'lodash/merge'
 
 
-const baseURL = "./server-treasure-box";
+const baseURL = "http://8.217.42.210/noss/server-treasure-box";
 
 const http = axios.create({
     baseURL: baseURL,
