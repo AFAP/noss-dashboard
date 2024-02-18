@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div id="chat-noss" class="chat-noss" :style="{'height': tableHeight + 'px'}"></div>
-    <div id="chat-rank" class="chat-noss" :style="{'height': tableHeight + 'px','margin-top':'40px'}"></div>
+    <div id="chat-noss" :style="{'height': tableHeight + 'px'}"></div>
+    <div id="chat-rank" :style="{'height': tableHeight + 'px','margin-top':'40px'}"></div>
   </div>
 </template>
 
@@ -98,7 +98,7 @@ export default {
         title: {
           left: 'center',
           text: 'NOSS MINT 全记录',
-          subtext:"共Mint 1,095,102 次， 10,946,498 个NOSS",
+          subtext: "共Mint 1,095,102 次， 10,946,498 个NOSS",
         },
         subtitle: {
           left: 'center',
@@ -200,8 +200,8 @@ export default {
   }
 }
 </script>
-
-<style>
-.chat-noss {
+<style scoped>
+.aaa {
+  color: #ffffff;
 }
 </style>
